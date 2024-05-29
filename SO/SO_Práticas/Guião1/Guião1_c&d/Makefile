@@ -18,9 +18,11 @@ run_pessoas_l:
 run_pessoas_u:
 	./pessoas -u "Gabriel Antunes" 21
 
+# Comando genérico para adicionar um utilizador devolvendo a posição em que foi adicionado
 run_pessoas_i2:
 	./pessoas -i2 "Gabriel Antunes" 20
 
+# Comando genérico que atualiza a idade de um utilizador através da sua posição na lista
 run_pessoas_o:
 	./pessoas -o 4 21
 
