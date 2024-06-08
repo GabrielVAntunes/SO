@@ -7,7 +7,7 @@ int defeitos(char* imagens[], int n, int max){
 
     int running_tasks = 0;
 
-    pid_t pid = fork;
+    pid_t pid;
 
     int i = 0;
     while(i < n){
