@@ -32,7 +32,7 @@ int main(int argc, char *argv){
     }
 
     // Ciclo que vai esperar que os 10 processos criados terminem as suas execuções e imprimam as informações dos mesmos
-    for(int i = 0; i <= 10; i++){
+    for(int i = 1; i <= 10; i++){
         pid_t pid_child = wait(&status);
         if (pid_child == -1) _exit(EXIT_FAILURE);
 
